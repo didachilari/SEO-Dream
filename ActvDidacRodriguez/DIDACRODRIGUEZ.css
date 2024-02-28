@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding: 20px 0px 0 0px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header #logo{
+    display: flex;
+}
+
+#logo img{
+    height: 30px;
+    width: 30px;
+}
+#logo h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.navbar-nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.background-grande .background{
+    background-image: url(./img/banner-right.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 80%;
+    display: flex;
+    width: 100%;
+}
+.background-grande .background .left{
+    width: 50%;
+    background-image: url(./img/banner-left.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+.background-grande .background .left .button{
+    width: 100%;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.background-grande .background .left .button a{
+    background-color: #33ccc5;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 15px 20px 15px 20px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 2px 0px 0px #4771cb;
+    transition: 0.2s;
+}
+.background-grande .background .left .button a:hover{
+    background-color: #4771cb;
+    box-shadow: 0px 2px 0px 0px #33ccc5;
+}
+
+.background-grande .background .left .columnas{
+    padding: 230px 0 0 70px;
+    width: 98%;
+}
+.background-grande .background .left .columnas p{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.background-grande .background .left .columnas h5{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -10px;
+}
+.background-grande .background .left .linea{
+    margin-top: 20px;
+    margin-left: 70px;
+    border-top: 1px rgba(255, 255, 255, 0.379) solid;
+    width: 84%;
+}
+.background-grande .background .left h1{
+    padding-left: 70px;
+    width: 100%;
+    padding-top: 30px;
+    font-size: 4.3em;
+    font-weight: 800;
+    background-image: linear-gradient(to right, orange, red); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+.background-grande .background .right{
+    width: 50%;
+}
+.background-grande .background .right img{
+    padding: 135px 0 0 70px;
+}
+.columnas-numeros{
+    padding-bottom: 20px;
+    margin: auto;
+    height: 100%;
+    width: 93%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+.columnas-numeros .col{
+    width: 100%;
+}
+.columnas-numeros .numbericon1{
+    margin-top: -50px;
+    background-image: url(./img/number-01.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: center;
+}
+.columnas-numeros .numbericon1 p{
+    text-align: center;
+    padding-top: 27px;
+    color: white;
+    font-size: 2em;
+}
+.columnas-numeros .numbericon2{
+    margin-top: -50px;
+    background-image: url(./img/number-02.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: center;
+}
+.columnas-numeros .numbericon2 p{
+    text-align: center;
+    padding-top: 27px;
+    color: white;
+    font-size: 2em;
+}
+.columnas-numeros .numbericon3{
+    margin-top: -50px;
+    background-image: url(./img/number-03.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: center;
+}
+.columnas-numeros .numbericon3 p{
+    text-align: center;
+    padding-top: 27px;
+    color: white;
+    font-size: 2em;
+}
+.columnas-numeros .numbericon4{
+    margin-top: -50px;
+    background-image: url(./img/number-04.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: center;
+}
+.columnas-numeros .numbericon4 p{
+    text-align: center;
+    padding-top: 27px;
+    color: white;
+    font-size: 2em;
+}
+.columnas-numeros .image1{
+    width: 100%;
+    text-align: center;
+}
+.columnas-numeros .image1 img{
+padding: 20px 0 30px 0;
+}
+.columnas-numeros .titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.columnas-numeros .linea{
+    padding-bottom: 20px;
+    margin: auto;
+    width: 40%;
+    border-top: 1px solid #33ccc5;
+}
+.columnas-numeros .textos{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.columnas-numeros .textos1{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.columnas-numeros .textos1 p span{
+    color: #4771cb;
+}
+
+.our_services{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.our_services h3{
+    font-weight: 700;
+    color: #33ccc5;
+    font-size: 1em;
+}
+.our_services h2{
+    font-weight: 700;
+    margin: auto;
+    width: 39%;
+    font-size: 2em;
+}
+.our_services h2 .s1{
+    color: #4771cb;
+}
+.our_services h2 .s2{
+    color: #33ccc5;
+}
+
+.services{
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.services .principal{
+    margin: auto;
+}
+.services .principal .secundario{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.135);
+    margin: 10px 10px 10px 10px;
+}
+.services .principal .secundario .terciario{
+    padding: 40px 0 40px 0;
+    width: 100%;
+}
+.services .principal .secundario .terciario .derecha{
+    font-family: 'Open Sans', sans-serif;
+}
+.services .principal .secundario .terciario .izquierda{
+    margin: auto;
+    text-align: center;
+}
+.services .principal .secundario .terciario .derecha h3{
+    font-size: 17px;
+}
+.services .principal .secundario .terciario .izquierda .imagen{
+    margin: auto;
+    width: max-content;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.services .principal .secundario .terciario .izquierda .imagen img{
+    padding: 15px;
+}
+@media screen and (max-width: 550px){
+    #logo h1{
+        font-size: 30px;
+    }
+    #logo img{
+        height: 20px;
+        width: 20px;
+    }
+    .background-grande .background{
+        background-image: none;
+        flex-direction:column;
+    }
+    .background-grande .background .left{
+        padding-top: 150px;
+        width: 100%;
+        background-size: 150px;
+        background-repeat: no-repeat;
+    }
+    .background-grande .background .left .button{
+    padding: 0;
+    padding-top: 50px;
+    text-align: center;
+    }
+    .background-grande .background .left .columnas{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+    .background-grande .background .left .columnas p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .background-grande .background .left .columnas h5{
+        font-size: 15px;
+    }
+    .background-grande .background .left .linea{
+        margin-left: 0;
+        margin: auto;
+        width: 95%;
+        border-color: rgb(216, 214, 214);
+    }
+    .background-grande .background .left h1{
+        padding-left: 0;
+        text-align: center;
+        font-size: 2.8em;
+        font-weight: 800;
+    }
+    .background-grande .background .right{
+    width: 100%;
+    }
+    .background-grande .background .right img{
+        padding: 20px 0 0 0;
+
+        width: 100%;
+        height: auto;
+    }
+    header{
+        padding: 0;
+    }
+    #menu{
+        display: none;
+    }
+    .our_services{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .our_services h2{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .our_services h2 .s1{
+        color: #4771cb;
+    }   
+    .our_services h2 .s2{
+        color: #33ccc5;
+    }
+    .columnas-numeros{
+        padding: 0;
+    }
+    .columnas-numeros .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .columnas-numeros .col{
+        padding: 0;
+        width: 100%;
+    }
+    .columnas-numeros .col .hover{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .columnas-numeros .col .hover:hover{
+        width: 100%;
+        background-color: #4771cb;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .columnas-numeros .numbericon1{
+        margin-top: 0; 
+    }
+    .columnas-numeros .numbericon2{
+        margin-top: 0;
+    }
+    .columnas-numeros .numbericon3{
+        margin-top: 0;
+    }
+    .columnas-numeros .numbericon4{
+        margin-top: 0;
+    }
+
+    .services{
+        padding-top: 50px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .services .principal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .services .principal .secundario{
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    .services .principal .secundario .terciario{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+   
+}
